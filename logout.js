@@ -17,7 +17,7 @@ auth.onAuthStateChanged(function (user){
   if (user){
     var email = user.email;
     var user = document.getElementById("user");
-    var text = document.createTextNode("Kara");
+    var text = document.createTextNode("karagirl@gmail.com");
     user.appendChild(text);
     console.log(user);
     // console.log(user.name);
