@@ -250,7 +250,7 @@ input[type="search"] {
 
    .h2{
     font-size: 29px;
-    margin-top: 15%;
+    margin-top: 10%;
    
   }
 
@@ -334,6 +334,7 @@ header nav li{
 .cover .flex-form input[type="submit"]{
   position:absolute;
   left:190px;
+  
  }
 
 
@@ -342,6 +343,42 @@ right:21%;
   
  }
 }
+
+@media all and (max-width:321px) {
+  nav{
+
+    margin-left: 5%;
+  }
+  
+   .btn{
+    margin-left: -20%;
+   }
+   
+  
+   .cover .flex-form input[type="submit"]{
+    position:absolute;
+    left:198px;
+    background-color: #ef3f5a;
+   }
+  
+  
+   .flex-form{
+  /* right: %; */
+   }
+  
+   .h2{
+    font-size: 20px;
+   margin-top: 0px;
+  }
+  
+  header nav li{
+    font-size: 6px;
+    
+  
+  }
+  
+}
+
   
   
 
