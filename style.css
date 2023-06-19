@@ -18,7 +18,6 @@ body{
 
 .out{
   position: absolute;
-  /* float: right; */
   border: none;
   color: black;
   outline: none;
@@ -30,7 +29,7 @@ body{
   background-color: white;
   left:   80%;
   top: 4%;
-  /* margin: 5%; */
+ 
 }
 
 .word{
@@ -146,4 +145,17 @@ ul .speech.active{
 .buttons .buttonn.loading{
   opacity: 0.7;
   pointer-events: none;
+}
+
+@media all and (max-width:425px) {
+.out{
+position: absolute;
+top: 1%;
+width: 18%;
+}
+
+.word{
+top: 3%;
+
+}
 }
