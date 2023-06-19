@@ -180,12 +180,9 @@ input[type="search"] {
 
 
 @media all and (max-width:800px) {
-  body {
-    font-size: 0.9rem;
-  }
 
   .flex-form {
-    width: 100%;
+    width: 120%;
   }
 
   input[type="search"] {
@@ -207,27 +204,28 @@ input[type="search"] {
     margin-bottom: 15px;
   }
 
-  h1 {
-    font-size: 2rem;
+  .h2{
+    font-size: 40px;
+    left: 20%;
+    margin-top: 5%;
   }
-
+  
   .cover {
     padding: 20px;
+    margin-top: 45px;
+    left: 25%;
+
   }
 
-  #madeby {
-    padding: 30px 20px;
-  }
+  
 }
 
 
 @media all and (max-width:500px) {
-  header{
-    /* background-color: #ef3f5a; */
-  }
+ 
 
   .h2{
-    /* background-color: #ef3f5a; */
+
     left: 0%;
    font-size: 34px;
    margin-left: 5%;
@@ -237,6 +235,43 @@ input[type="search"] {
     margin-left: -17%;
   }
 }
+
+
+@media all and (max-width:425px) {
+
+  nav{
+
+    margin-right: 4%;
+  }
+
+  .btn{
+    margin-left: -21%;
+   }
+
+   .h2{
+    font-size: 29px;
+    margin-top: 15%;
+   
+  }
+
+  header nav li{
+    font-size: 11px;
+  
+}
+
+.cover .flex-form input[type="submit"]{
+  position:absolute;
+  left:190px;
+  
+ }
+
+
+ .flex-form{
+right:10%;
+  
+ }
+}
+
 
 
 
