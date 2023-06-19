@@ -45,33 +45,4 @@
   });
 
 
- // //SIGNIN FUNCTION//
-
-// let signInButton = document.getElementById("signin");
-// signInButton.addEventListener("click", (e) =>{
-//   e.preventDefault();
-//   console.log("sign in clicked");
-
-//   var email = document.getElementById("inputEmail");
-//   var password = document.getElementById("inputPassword");
-
-//   auth
-//   .signInWithEmailAndPassword(email.value, password.value)
-//   .then((userCredential) =>{
-//     var user = userCredential.user;
-//     console.log("user", user.email);
-//     window.location = "home.html";
-//   })
-
-//   .catch((error) =>{
-//         var errorCode = error.Code;
-//         var errorMessage = error.message;
-//         console.log("error code, errorCode");
-//         console.log("error Message, errorMessage");
-//         alert(errorMessage);
-    
-//       }); 
-
-// });
-
-
+ 
